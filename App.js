@@ -1,12 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
+import { View, Image, StyleSheet } from 'react-native';
+import logo from './assets/greenpayLogo.PNG';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <text>Greenpay is real pain</text>
+
+      <text>🅶🆁🅴🅴🅽 🅿🅰🆈</text>
+      <Image source={logo} style={{ width: 1200, height: 900 }} />
+
     </View>
   );
 }
